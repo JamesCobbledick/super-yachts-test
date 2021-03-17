@@ -22,6 +22,9 @@ First, please create your .env, simply rename the .env.example file to '.env'
 
 You will need to setup a local server to run this application, the easiest way is to use the built-in PHP server.
 Please ensure PHP >7.4 is installed on your machine.
+
+Please create 'database.sqlite' in the /database directory.
+
 ```bash
 php artisan serve
 php artisan migrate
